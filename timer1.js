@@ -1,4 +1,6 @@
 const args = process.argv.slice(2);
+
+
 const timer = (args) => {
   for (const arg of args) {
     if (arg > 0 && !isNaN(arg)) {
